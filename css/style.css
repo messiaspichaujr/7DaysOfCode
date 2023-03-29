@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+
+:root{
+    --cor-da-letra-menu: #667085;
+    --cor-do-vermelho: #8E2424;
+    --cor-da-letra-button: rgba(255, 255, 255, 1);
+    --cor-preta-diferenciada: #101828;
+    --cor-da-borda: rgba(234, 236, 240, 1);
+    --penultimo-background:rgba(196, 25, 25, 0.03);
+    --ultimo-background:rgba(249, 250, 251, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background-color: #ffffff;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 20px;
+
+}
+.cabecalho-div{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.cabecalho-menu-item{
+    color: var(--cor-da-letra-menu);
+}
+
+.cabecalho-button{
+    display: flex;
+    gap: 10px;  
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho-button-entrar{
+    color: var(--cor-da-letra-menu);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho-button-cadastrar{
+    background-color: #8E2424;
+    color: var(--cor-da-letra-button);
+    border-radius: 8px;
+    width: 96px;
+    height: 44px;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 2px 0px 2px #101828;
+    
+}
+.cabecalho-button-cadastrar:hover{
+    width: 97px;
+    height: 45px;
+    background-color: #101828;
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 24px;
+}
+.conteudo-principal-escrito-titulo{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    color: var(--cor-do-vermelho);
+
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Inter',sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+.conteudo-principal-escrito-paragrafo{
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--cor-da-letra-menu);
+    width: 791px;
+    height: 60px;
+}
+.conteudo-secundario{
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;   
+}
+.conteudo-principal-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    height: 288px;
+    gap: 12px;
+}
+.conteudo-secundario-titulo{
+    font-size: 60px;
+    font-family: 'Inter',sans-serif;
+    color: #8E2424;
+    width: 280px;
+    height: 72px;
+    font-weight: 600;
+
+}
+.conteudo-secundario-subtitulo{
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+    color: var(--cor-preta-diferenciada);
+    font-weight: 600;
+    width: 280px;
+    height: 28px;
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-da-letra-menu);
+    font-size: 16px;
+    font-weight: 400;
+    width: 280px;
+    height: 72px;
+}
+
+.conteudo-principal-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    gap: 20px;
+}
+.conteudo-terciario-button{
+    background-color: rgb(238, 238, 238);
+    border: none;
+    width: 130px;
+    height: 30px;
+    color: var(--cor-do-vermelho);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.conteudo-terciario-titulo{
+    font-family: 'Inter',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-preta-diferenciada);
+
+}
+.conteudo-terciario-paragrafo{
+    font-family: 'Inter',sans-serif;
+    color: var(--cor-da-letra-menu);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.conteudo-terciario-imagem{
+    padding-top: 50px;
+}
+.design{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.pai-de-todos{
+    display: flex;
+    flex-direction: column;
+    padding: 96px 600px;
+    gap: 30px;
+}
+.titulo-button{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-preta-diferenciada);
+    
+}
+.conteudo-principal-button{
+    border: 1px solid var(--cor-da-borda);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: 115px;
+    border-radius: 28px;
+    padding: 24px 24px 24px;
+    gap: 24px;
+    
+}
+.botton-titulo{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 500; 
+    color: var(--cor-preta-diferenciada);       
+}
+.botton-paragrafo{
+    font-family: 'Inter',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cor-da-letra-menu);
+    display: flex;
+    
+}
+/*.penultimo-cabecalho{
+    width: 1216px;
+    height: 404px;
+    
+
+}*/
+
+.penultima-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--penultimo-background);
+    background-repeat: no-repeat;
+    height: 390px;
+}
+.penultimo-titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    color: var(--cor-do-vermelho);
+    padding-top: 60px;
+
+} 
+.penultimo-subtitulo{
+    font-family:'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-preta-diferenciada);
+    height: 88px;
+    text-align: center;
+    width: 1088px;
+    left: 0px;
+    top: 36px;
+} 
+
+.penultimo-paragrafo{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: var(--cor-preta-diferenciada);
+    font-weight: 500;
+}
+.penultimo-paragrafo-dois{
+    font-family: 'Intel',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-da-letra-menu);
+    top: 45px;
+}
+.rodape-principal{
+    padding-top: 10%;
+    padding: 96px 0px;  
+}
+.rodape{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 32px;
+}    
+.rodape-titulo{
+    font-family: 'Inter',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-preta-diferenciada);
+
+}
+.rodape-subtitulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--cor-da-letra-menu);
+    font-weight: 400;
+}
+.rodape-span{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.rodape-botao{
+    background-color: var(--cor-da-letra-button);
+    color: var(--cor-da-letra-menu);
+    border-radius: 8px;
+    width: 450px;
+    height: 44px;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    border: 1px solid var(--cor-da-borda);
+   
+}
+.rodape-botao-cadastrar{
+    background-color: #8E2424;
+    color: var(--cor-da-letra-button);
+    border-radius: 8px;
+    width: 96px;
+    height: 44px;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.rodape-botao-cadastrar:hover{
+    background-color: #101828;
+
+
+}
+
+.rodape-paragrafo{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    color: var(--cor-da-letra-menu);
+}
+/* FINISHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+/*PRIMEIRO SITE FEITO TOTALMENTE SOZINHO ,ZULU É NOIX*/
