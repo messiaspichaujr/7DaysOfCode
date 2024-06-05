@@ -1,4 +1,4 @@
-## Desafio do curso de HTML e CSS da Alura no qual eu teria que fazer a criação de uma landing page usando as propriedades do Flexbox.
+## Desafio do curso de HTML e CSS da Alura no qual teria que realizar a criação de uma landing page usando as propriedades Flexbox.
 
 ![Screenshot_3](https://github.com/messiaspichaujr/7DaysOfCode/assets/125512149/f1649e2d-c4e3-492d-a79d-77a942ca4d2f)
 
